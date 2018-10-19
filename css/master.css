@@ -1,0 +1,269 @@
+/* Ceci est un commentaire en CSS - Les navigateurs ignorent les commentaires.
+De cette manière nous pouvons laisser des messages pour d'autres codeurs et des explications de ce que nous avons fait. */
+
+/* Dans les 4 selectors suivants nous allons travailler sur la navigation de notre page.
+
+Nous découvrons ici la possibilité d'utiliser des selectors composés ex : header ul  Ceci permet, par exemple, de cibler les elements de la liste du header sans affecter ceux du footer.
+ */
+header {
+  background-color: #001c28;
+  background-image: linear-gradient(19deg, #001c28 0%, #21afff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+  border-radius: 115px 31px 31px 31px;
+-moz-border-radius: 115px 31px 31px 31px;
+-webkit-border-radius: 115px 31px 31px 31px;
+border: 2px solid #EB6896;
+}
+
+header a {
+  text-decoration: overline;
+  color : #ffde00;
+  padding: 2% 2% 2% 2%;
+  display: block;
+  font-family: Vollkorn;
+}
+
+/* A noter ici :
+1. L'utilisation d'une class sur la div, nous la ciblons ici dans la CSS au moyen d'un point .
+2. l'utilisation de background image et de background size
+3. une hauteur minimal à la div. (pour comprendre ce qu'est une VH : https://css-tricks.com/the-lengths-of-css/)
+*/
+.hero {
+  background: rgb(05, 0, 0) url('images/cloud.jpeg') top center no-repeat;
+  background-size: cover;
+  color : #fff;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+/* Sur les sections :
+1. Nous utilisons encore une hauteur minimale pour faciliter la lecture et le rythme vertical de la page.
+2. Nous utilsons des classes pour permettre d'aleterner visuellement les sections.
+*/
+section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2% 0;
+}
+
+/*/ BACKGROUND PHOTOS /*/
+
+#section01{
+  background-color: #EB6896
+}
+
+#section02{
+  background-color: #C36894
+}
+
+#section03{
+  background-color: #836890
+}
+
+#section04{
+  background-color: #46698D
+}
+
+#section05{
+  background-color: #0F6A8B
+}
+
+/* Nous souhaitons que les images soient responsives... c'est à dire n'éxcèdent pas une certaine largeur ET se redimensionnent avec leur parent */
+
+.image-block {
+  width: 100%;
+}
+
+.image-block img {
+  width : 100%;
+display:block;
+}
+
+figcaption {
+  font-family: 'Fahkwang', serif;
+  font-style: italic;
+}
+
+/* SECTION TITRE */
+
+
+.hero h1{
+  font-family: 'Abril Fatface', cursive;
+  color: #ffde00;
+  font-size: 175px;
+  text-align: right;
+  padding-right: 3%;
+}
+
+#section01 h1{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 65px;
+}
+
+#section02 h1{
+  font-family: 'Bree Serif', serif;
+  font-size: 65px;
+}
+
+#section03 h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 65px;
+}
+
+#section04 h1{
+  font-family: 'Bevan', cursive;
+  font-size: 65px;
+}
+
+#section05 h1{
+font-family: 'Special Elite', cursive;
+  font-size: 75px;
+}
+
+#left{
+  color: #ffffff;
+text-align: left;
+padding-left: 10%;
+}
+
+#right{
+  color: #ffffff;
+text-align: right;
+padding-right: 10%;
+}
+
+
+/* SECTION TEXTE */
+
+#section01 p{
+font-family: 'Covered By Your Grace', cursive;
+text-align: justify;
+color: #ffffff
+}
+
+#section02 p{
+font-family: 'Covered By Your Grace', cursive;
+text-align: justify;
+color: #ffffff
+}
+
+
+/* SECTION LION */
+
+.content_lion{
+  width: 45%;
+  display: inline-block;
+}
+
+.content_lion p{
+  padding: 2% 10% 0 10%;
+}
+
+.illustration_lion {
+  width: 50%;
+  display: inline-block;
+}
+
+/* SECTION TURTLE */
+
+.content_turtle{
+  width: 45%;
+  display: inline-block;
+}
+
+.content_turtle p{
+  padding: 2% 10% 0 10%;
+}
+
+.illustration_turtle {
+  width: 50%;
+  display: inline-block;
+}
+
+/* SECTION DOG */
+
+.content_dog{
+  width: 45%;
+  display: inline-block;
+}
+
+.content_dog p{
+  padding: 2% 10% 0 10%;
+}
+
+.illustration_dog{
+  width: 50%;
+  display: inline-block;
+}
+/* SECTION ANT */
+
+.content_ant{
+  width: 45%;
+  display: inline-block;
+}
+
+.content_ant p{
+  padding: 2% 10% 0 10%;
+}
+
+.illustration_ant{
+  width: 50%;
+  display: inline-block;
+}
+
+/* SECTION OLD */
+
+.content_old{
+  width: 45%;
+  display: inline-block;
+}
+
+.content_old p{
+  padding: 2% 10% 0 10%;
+}
+
+.illustration_old{
+  width: 50%;
+  display: inline-block;
+}
+
+/* SECTION FOOTER */
+
+footer {
+  min-height: 100px;
+  background-color: #001b27;
+  padding: 2%;
+}
+footer li{
+  font-family: 'Vollkorn', serif;
+  color: #ffffff;
+}
+footer p{
+  font-family: Notable;
+  color: #ffffff;
+}
+/*
+
+// Small devices
+
+// Medium devices (landscape phones, 576px and up)
+@media (min-width: 640px) { ... }
+
+// Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// Extra large devices
+
+@media (min-width: 1440px) { ... }
+
+*/
