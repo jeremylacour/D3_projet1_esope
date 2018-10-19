@@ -158,10 +158,11 @@ color: #ffffff
 
 
 /* SECTION LION */
-
+#section01 {
+  display: flex;
+}
 .content_lion{
   width: 45%;
-  display: inline-block;
 }
 
 .content_lion p{
@@ -170,14 +171,12 @@ color: #ffffff
 
 .illustration_lion {
   width: 50%;
-  display: inline-block;
 }
 
 /* SECTION TURTLE */
 
 .content_turtle{
   width: 45%;
-  display: inline-block;
 }
 
 .content_turtle p{
@@ -186,14 +185,12 @@ color: #ffffff
 
 .illustration_turtle {
   width: 50%;
-  display: inline-block;
 }
 
 /* SECTION DOG */
 
 .content_dog{
   width: 45%;
-  display: inline-block;
 }
 
 .content_dog p{
@@ -202,13 +199,11 @@ color: #ffffff
 
 .illustration_dog{
   width: 50%;
-  display: inline-block;
 }
 /* SECTION ANT */
 
 .content_ant{
   width: 45%;
-  display: inline-block;
 }
 
 .content_ant p{
@@ -217,14 +212,12 @@ color: #ffffff
 
 .illustration_ant{
   width: 50%;
-  display: inline-block;
 }
 
 /* SECTION OLD */
 
 .content_old{
   width: 45%;
-  display: inline-block;
 }
 
 .content_old p{
@@ -233,7 +226,6 @@ color: #ffffff
 
 .illustration_old{
   width: 50%;
-  display: inline-block;
 }
 
 /* SECTION FOOTER */
