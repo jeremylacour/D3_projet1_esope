@@ -145,22 +145,59 @@ padding-right: 10%;
 /* SECTION TEXTE */
 
 #section01 p{
-font-family: 'Covered By Your Grace', cursive;
+font-family: 'Slabo 27px', serif;
 text-align: justify;
 color: #ffffff
 }
 
 #section02 p{
-font-family: 'Covered By Your Grace', cursive;
+font-family: 'Roboto Slab', serif;
 text-align: justify;
 color: #ffffff
 }
 
+#section03 p{
+font-family: 'Poppins', sans-serif;
+text-align: justify;
+color: #ffffff
+}
 
-/* SECTION LION */
+#section04 p{
+font-family: 'Noto Serif', serif;
+text-align: justify;
+color: #ffffff
+}
+
+#section05 p{
+font-family: 'Indie Flower', cursive;
+text-align: justify;
+color: #ffffff
+}
+
+/* DISPLAY BLOCS */
+
 #section01 {
   display: flex;
 }
+
+#section02{
+  display: flex;
+}
+
+#section03{
+  display: flex;
+}
+
+#section04{
+  display: flex;
+}
+
+#section05{
+  display: flex;
+}
+
+/* SECTION LION */
+
 .content_lion{
   width: 45%;
 }
