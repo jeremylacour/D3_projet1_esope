@@ -6,11 +6,10 @@ De cette manière nous pouvons laisser des messages pour d'autres codeurs et des
 Nous découvrons ici la possibilité d'utiliser des selectors composés ex : header ul  Ceci permet, par exemple, de cibler les elements de la liste du header sans affecter ceux du footer.
  */
 header {
-  background-color: #001c28;
-  background-image: linear-gradient(19deg, #001c28 0%, #21afff 100%);
+  background-image: linear-gradient(111deg, #52ACFF 25%, #FFE32C 100%);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
 }
 
 header ul {
@@ -145,17 +144,34 @@ padding-right: 10%;
 /* SECTION TEXTE */
 
 #section01 p{
-font-family: 'Covered By Your Grace', cursive;
+font-family: 'Slabo', serif;
 text-align: justify;
 color: #ffffff
 }
 
 #section02 p{
-font-family: 'Covered By Your Grace', cursive;
+font-family: 'Roboto Slab', serif;
 text-align: justify;
 color: #ffffff
 }
 
+#section03 p{
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  color: #ffffff
+}
+
+#section04 p{
+  font-family: 'Noto Serif', serif;
+  text-align: justify;
+  color: #ffffff
+}
+
+#section05 p{
+  font-family: 'Indie Flower', cursive;
+  text-align: justify;
+  color: #ffffff
+}
 
 /* SECTION LION */
 #section01 {
@@ -174,7 +190,9 @@ color: #ffffff
 }
 
 /* SECTION TURTLE */
-
+#section02{
+  display: flex;
+}
 .content_turtle{
   width: 45%;
 }
@@ -188,7 +206,9 @@ color: #ffffff
 }
 
 /* SECTION DOG */
-
+#section03{
+  display: flex;
+}
 .content_dog{
   width: 45%;
 }
@@ -201,7 +221,9 @@ color: #ffffff
   width: 50%;
 }
 /* SECTION ANT */
-
+#section04{
+  display: flex;
+}
 .content_ant{
   width: 45%;
 }
@@ -215,7 +237,9 @@ color: #ffffff
 }
 
 /* SECTION OLD */
-
+#section05{
+  display: flex;
+}
 .content_old{
   width: 45%;
 }
@@ -243,6 +267,11 @@ footer p{
   font-family: Notable;
   color: #ffffff;
 }
+
+section{
+  display: flex;
+}
+
 /*
 
 // Small devices
